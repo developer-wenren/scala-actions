@@ -27,7 +27,7 @@
 
 ## 认识 Scala
 
-在认识 Scala 之前，我们先来弄清楚 Scala 的读法和来历。尤其是作为中国程序员，头疼的就是面对新技术出现的单词，自己却读不出来或者读得很变扭，这里我在[百度翻译][百度翻译]中查到了 Scala 的音标 `[ˈskɑlə]` 和单词发音，可以供大家参考。
+在认识 Scala 之前，我们先来弄清楚 Scala 的读法和来历。尤其是作为中国程序员，头疼的就是面对新技术出现的单词，自己却读不出来或者读得很变扭，这里我在[百度翻译](https://fanyi.baidu.com/?aldtype=16047#en/zh/Scala)中查到了 Scala 的音标 `[ˈskɑlə]` 和单词发音，可以供大家参考。
 
 接着再简单看下 Scala 的历史：Scala 是由洛桑联邦理工学院的 Martin Odersky 教授主导设计的一门编程语言，面对 Java 严格的语言规范限制，Martin 教授基于 JVM 重新设计了一门更加现代化，可扩展的语言， 并且将这门 Scalable Language 的缩写 Scala 作为命名，这就是 Scala 的来由。从 2003 年底基于 Java 平台的 Scala 发布，到现在稳定版本已经到了 2.12.8，可以说 Scala 的迭代速度还是很快的
 
@@ -84,7 +84,7 @@
 
 这里的使用到的 `println`就是 Scala 中打印方法，类似 Java 中的`System.out.println`，是不是很简洁呢。
 
-#### 编译 Scala 类 d
+#### 编译 Scala 类
 
 除了使用命令行交互方式之外，我们再试着实现一个 Scala 类的 HelloWorld。
 
@@ -228,7 +228,7 @@ Scala 的模式匹配在本文仅进行简单的用法演示，还有丰富的�
 
 #### 循环处理
 
-Scala 循环语法比较特别，使用 `for` + `<-` 来进行遍历元素，并提供了便捷的 `unitl`方法，`to`方法来实现遍历, 需要注意的就是 `unitl`方法采用半闭区间，不包含索引最后一位。而 `unitl`方法，`to`方法底层都是构建 Range 对象然后进行遍历。
+Scala 循环语法比较特别，使用 `for` + `<-` 来进行遍历元素，并提供了便捷的 `until`方法，`to`方法来实现遍历, 需要注意的就是 `until`方法采用半闭区间，不包含索引最后一位。而 `until`方法，`to`方法底层都是构建 Range 对象然后进行遍历。
 
 ![Scala  循环](http://ww4.sinaimg.cn/large/006tNc79ly1g3tu3yt8lej311s0pu0ug.jpg)
 
@@ -429,4 +429,3 @@ Scala 的源代码目录创建后，转到 Pom 文件，修改 XML 配置：
 - TOUR OF SCALA：https://docs.scala-lang.org/tour/tour-of-scala.html
 - Scala 课堂：https://twitter.github.io/scala_school/zh_cn/index.html
 - Scala 开发者的 SpringBoot 快速入门指南：https://afoo.me/posts/2015-07-21-scala-developers-springboot-guide.html
-
